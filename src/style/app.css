@@ -1,0 +1,26 @@
+/* styles in src/style directory are applied to the whole page */
+body {
+  background: #8ba0a7;
+  color: #fff;
+}
+
+a {
+  color: #03A9F4;
+}
+
+main {
+  padding: 1em;
+  font-family: Arial, Helvetica, sans-serif;
+  text-align: center;
+  margin-top: 50px;
+  display: block;
+}
+.chat-room{
+  width:400px;
+  border:solid 1px;
+}
+
+footer {
+  text-align: center;
+  font-size: 0.8em;
+}

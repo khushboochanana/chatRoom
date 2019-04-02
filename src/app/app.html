@@ -1,0 +1,18 @@
+<main>
+  <h1 class="title">Hello, Welcome To Chat Room !</h1>
+  <div chat-room>
+    <div>
+      <input type="text" ng-model="app.message">
+      <input type="button" value="SendMessage" ng-click="app.sendMessage()"> </div>
+    <div ng-if="app.messages.length">
+      <div ng-repeat="message in app.messages">
+        <div>{{message.message}} ---- {{message.senderName}}</div>
+      </div>
+
+    </div>
+    <div></div>
+  </div>
+  <!-- Images (and assets) are parsed and loaded from within the public directory -->
+</main>
+<footer>
+</footer>
